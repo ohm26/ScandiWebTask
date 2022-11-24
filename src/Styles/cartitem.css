@@ -1,0 +1,74 @@
+@import url("./index.css");
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid white;
+    margin: 10px auto;
+    padding: 1%;
+    background-color: white;
+}
+
+.container h3 {
+    font-weight: 200;
+    font-size: 1.7em;
+    margin: 10px auto;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 20px auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+.productquantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productquantity button {
+    width: 35px;
+    height: 50px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.imageremove {
+    width: 200px;
+    height: 200px;
+}
+
+.imagedel {
+    width: 50px;
+    height: 100px;
+
+}
+
+.delbtn {
+    padding: 1%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    height: fit-content;
+}

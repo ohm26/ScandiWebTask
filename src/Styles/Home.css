@@ -1,0 +1,19 @@
+@import url("./index.css");
+
+.container {
+    padding: 0 5%;
+    text-align: center;
+    font-size: 24px;
+    background-color: transparent;
+}
+.container h1 {
+    margin: 50px auto;
+}
+
+.productlist {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+    margin-left: 101px;
+    margin-right: 101px;
+}
